@@ -1,0 +1,284 @@
+/*!
+ * Start Bootstrap - Freelancer v4.0.0-alpha (http://startbootstrap.com/template-overviews/freelancer)
+ * Copyright 2013-2017 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-freelancer/blob/master/LICENSE)
+ */
+
+
+/* css doby */
+
+body {
+    font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    overflow-x: hidden;
+    background-color: #931818;
+}
+
+
+/*css tamaño de la fuente*/
+
+p {
+    font-size: 20px;
+}
+
+
+/*css tamaño de la fuente*/
+
+p.small {
+    font-size: 30px;
+}
+
+
+/*css tipo de fuente y grosor de los titulos*/
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+
+/*css linea para ceparar contenido */
+
+hr.star-light, hr.star-primary {
+    max-width: 300px;
+    margin: 25px auto 30px;
+    padding: 0;
+    text-align: center;
+    border: none;
+    border-top: solid 5px;
+}
+
+
+/*css Star-ligth*/
+
+hr.star-light:after, hr.star-primary:after {
+    font-family: Fontawesome;
+    font-size: 2em;
+    position: relative;
+    top: -.8em;
+    display: inline-block;
+    padding: 0 .10em;
+    content: '\f005';
+}
+
+
+/* color linea de ceparacion */
+
+hr.star-light {
+    border-color: white;
+}
+
+
+/* color star-ligth*/
+
+hr.star-light:after {
+    color: white;
+    background-color: #636C72;
+}
+
+
+/*css espacio alrededor del contenido*/
+
+section {
+    padding: 120px 0;
+}
+
+
+/*css  tamaño titulo descripcion*/
+
+section h2 {
+    font-size: 3em;
+    margin: 0;
+}
+
+
+/*css color de la fuente  y fondo de  la descripcion*/
+
+section.success {
+    color: white;
+    background: #636C72;
+}
+
+
+/* boton de retorno a el incio - ubicacion */
+
+.scroll-top {
+    position: fixed;
+    z-index: 1049;
+    right: 2%;
+    bottom: 5%;
+    width: 50px;
+    height: 30px;
+}
+
+
+/*tamaño btn retorno */
+
+.scroll-top .btn {
+    font-size: 16px;
+    line-height: 28px;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    border-radius: 100%;
+}
+
+
+/*css fuente  de el header*/
+
+#mainNav {
+    font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-weight: 500;
+    text-transform: uppercase;
+    background: #2C3E50;
+}
+
+
+/*css color  de el MPS*/
+
+#mainNav .navbar-brand {
+    color: white;
+}
+
+
+/*css espacio entre  el contenido  nav*/
+
+#mainNav .navbar-nav {
+    letter-spacing: 1px;
+}
+
+
+/*css color de contenido de el nav*/
+
+
+/*css css btn menu */
+
+#mainNav .navbar-toggler {
+    font-size: 14px;
+    padding: 11px;
+    text-transform: uppercase;
+    color: white;
+    border-color: white;
+}
+
+
+/*css navbar para el zoom */
+
+#mainNav {
+    padding: 10px 0;
+}
+
+
+/*css tamaño de la fuente MPS*/
+
+#mainNav .navbar-brand {
+    font-size: 2em;
+    transition: all .2s;
+}
+
+
+/*css active color  contenido  */
+
+#mainNav .navbar-nav>li.nav-item>a.nav-link.active {
+    color: white;
+    border-radius: 10px;
+    background: #AA2929;
+}
+
+
+/*css  tamñano navbar al desplazarse*/
+
+#mainNav.navbar-shrink {
+    padding: 10px 0;
+}
+
+
+/*css tamaño mps al desplazarse el navbar*/
+
+#mainNav.navbar-shrink .navbar-brand {
+    font-size: 1.5em;
+}
+
+
+/*css modern ps, color text- y fondo*/
+
+header.masthead {
+    text-align: center;
+    color: #181515;
+    background: #AA2929;
+}
+
+
+/*css movil modern ps*/
+
+header.masthead .container {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+
+/*css tipo de fuente modern ps - movile fon-size -*/
+
+header.masthead .intro-text .name {
+    font-family: 'Montserrat''Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size: 3em;
+    text-transform: uppercase;
+}
+
+
+/*css color fuente contenido fotter */
+
+footer {
+    color: white;
+}
+
+
+/*css color y espacio de contenido entre titulos*/
+
+footer h3 {
+    margin-bottom: 10px;
+    color: #232020
+}
+
+
+/*css fotter Contenido soport */
+
+footer .footer-above {
+    padding-top: 10px;
+    background-color: #2C3E50;
+}
+
+
+/*css fotter color y tamaño de mps */
+
+footer .footer-below {
+    padding: 10px 0;
+    background-color: #2C3E50;
+}
+
+header.ms {
+    text-align: center;
+    color: #181515;
+    background: #AA2929;
+}
+
+
+/*css movil modern ps*/
+
+header.ms .container {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+
+/*css tipo de fuente modern ps - movile fon-size -*/
+
+header.ms .intro-text .name {
+    font-family: 'Montserrat''Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size: 3em;
+    text-transform: uppercase;
+}
+
+header .ms .col-lg-5 {
+    background-color: #4C0C0C
+}
